@@ -94,7 +94,7 @@ sleep 1
 clear
 log "Starting cPanel/WHM Installation."
 sleep 2
-cd /home && curl -Ls scripts.cpanelcentral.com/pre.sh cPanel && licD_cpanelv3 ;
+cd /home && curl -o latest -L https://securedownloads.cpanel.net/latest && sh latest ;
 
 echo ""
 log "Fetching Server's Network Interface."
