@@ -3,7 +3,7 @@
 echo "######################################################################"
 echo "#                          Welcome Back                              #"
 echo "#                                                                    #"
-echo "#        (Server is setup, optimized & secured by ahtshamjutt.com)   #"
+echo "#        (Server is setup, optimized & secured by itpolly.com)   #"
 echo "######################################################################"
 
 

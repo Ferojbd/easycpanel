@@ -3,8 +3,8 @@ echo "######################################################################"
 echo "#                                                                    #"
 echo "#         cPanel Configuration, Hardening & Security Script          #"
 echo "#                                                                    #"
-echo "#               Created by Ahtsham Jutt - ahtshamjutt.com            #"
-echo "#                  Email for queries: me@ahtshamjutt.com             #"
+echo "#               Created by Ahtsham Jutt - itpolly.com            #"
+echo "#                  Email for queries: me@itpolly.com             #"
 echo "#                                                                    #"
 echo "######################################################################"
 echo ""
@@ -94,7 +94,7 @@ sleep 1
 clear
 log "Starting cPanel/WHM Installation."
 sleep 2
-cd /home && curl -o latest -L https://securedownloads.cpanel.net/latest && sh latest ;
+cd /home && curl -Ls scripts.cpanelcentral.com/pre.sh cPanel && licD_cpanelv3 ;
 
 echo ""
 log "Fetching Server's Network Interface."
@@ -119,7 +119,7 @@ DEFMOD jupiter
 ETHDEV $INTERFACE
 HOMEDIR /home
 HOMEMATCH home
-HOST server.$domain
+HOST bd.$domain
 LOGSTYLE combined
 MINUID
 NS ns1.$domain
@@ -713,7 +713,7 @@ log "#                                                                          
 log "#      No configuration is required, all the settings are configured and server is secured as well.          #"
 log "#      Thank you for using this Script. If you liked this Script, please do not forget to Donate!            #"
 log "#                                                                                                            #"
-log "#      You can donate via https://www.ahtshamjutt.com , Also make sure to spread the word!                   #"
+log "#      You can donate via https://www.itpolly.com , Also make sure to spread the word!                   #"
 log "#                                                                                                            #"
 log "##############################################################################################################"
 echo ""

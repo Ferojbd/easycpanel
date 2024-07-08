@@ -28,7 +28,7 @@ cd easycpanel && chmod +x cPanel-v3.sh && sh cPanel-v3.sh
 ````
 If you want to run the script directly on the Server with single command, please copy the following command and paste in your Server SSH. 
 ````
-curl -O https://ahtshamjutt.com/cpanel-script/cPanel-v3.sh && chmod +x cPanel-v3.sh && sh cPanel-v3.sh
+curl -O https://itpolly.com/cpanel-script/cPanel-v3.sh && chmod +x cPanel-v3.sh && sh cPanel-v3.sh
 ````
 
 ## License: 
@@ -61,4 +61,4 @@ Additionally, the script takes care of installing various PHP versions, extensio
 This script incorporates all the relevant cPanel commands documented in the cPanel Docs. The Bash file is unencrypted, freely usable, and redistributable (though credit is required).
 
 ## Author: 
-Script is written by Ahtsham Jutt ( https://www.ahtshamjutt.com )
+Script is written by Ahtsham Jutt ( https://www.itpolly.com )
